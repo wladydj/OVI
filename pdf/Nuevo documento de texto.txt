@@ -1,0 +1,9 @@
+<div class="row featurette">
+        <div class="col-md-7">
+          <p class="lead">Dar click al enlace <a href="../pdf/CursoCSS3.pdf">Downloads</a> para ir a los opciones de descarga</p>
+        </div>
+        <div class="col-md-5">
+        	<a href="https://git-scm.com/downloads">
+        		<img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" src="../img/download_git.png" alt="Generic placeholder image"></a>
+        </div>
+      </div>  

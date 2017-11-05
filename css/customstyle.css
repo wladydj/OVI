@@ -1,0 +1,261 @@
+/* CUSTOM STYLES
+-------------------------------------------------- */
+
+ul.socialnet
+{
+    list-style: none;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    top: 52%;
+    left: 2%;
+    position: fixed;
+}
+
+li.itemsocialnet:hover
+{
+    border: 1px solid;
+    margin: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 6px;
+    -webkit-transition:0.5s;
+    -webkit-transform:rotate(360deg);
+}
+
+.authors {
+    display: block;
+    position: absolute;
+    background: #3c3c3c;
+    left: 0;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+.backgroundauthors {
+	height: 200%;
+    width: 100%;
+    position: relative;
+}
+
+.imgauthors {
+    vertical-align: middle;
+    height: 300%;
+    width: 100%;
+}
+
+.bodyauthors{
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.featurette-dividerauthor {
+  margin: 6px 0;
+}
+
+.featurette-dividerreading, .featurette-dividermulti, .featurette-divideracti {
+  margin: 70px 0;
+}
+
+.featurette-divider-lecturagit{
+    margin: 8px 0;
+}
+
+.featurette-divider-lecturagit2{
+    margin: 20px 0;
+}
+
+.circleimg1{
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	top: 160px;
+	left: 100px;
+}
+
+.circleimg2{
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	top: 10px;
+	left: 100px;
+}
+
+.circleimg3{
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	top: 10px;
+	left: 100px;
+}
+
+.ngheader{
+    text-align: center;
+}
+
+.h1ngheader{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+.spheader{
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+.leadread{
+    margin-bottom:20px;
+    font-size:14px;
+    font-weight:300;
+    line-height:1.4;
+}
+
+.pg-iniciogit img{
+    width: 55%;
+}
+
+.center-block1 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.img-responsive1{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.footContactFull{
+    width: 100%;
+    background:#000;
+}
+
+.footContact {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #FFF;
+    text-align: center;
+}
+
+.footContactLogoUNAD {
+    width: 27.55%;
+    padding-left: 1.45%;
+    float: left;
+    text-align: left;
+}
+
+.footContactTextES, .footContactTextEN {
+    width: 36%;
+    float: left;
+    font-size: 11px;
+    text-align: left;
+    line-height: 14px;
+}
+
+.footContactTextES a{
+    text-decoration: underline;
+    float: left;
+}
+
+.cleanUnad {
+    clear: both;
+}
+
+div.footContactLogoCalidad {
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    float: none;
+    text-align: center;
+    overflow: hidden;
+    padding: 8px 0;
+    width: auto;
+}
+
+img.certificado1 {
+    margin: 0 15px;
+    width: auto;
+}
+
+div.footContactLogoCalidad a img, div.footContactLogoCalidad img.certificado1 {
+    width: auto;
+    margin: 0px 15px;
+}
+
+#copyrightUNAD {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 11px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    color: #FFF;
+    text-align: center;
+}
+
+#copyrightUNAD a{
+    color: #FFF;
+    text-decoration: underline;
+}
+
+.logosInferior {
+    text-align: center;
+}
+
+.logosInferior a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: auto;
+    text-decoration: underline;
+}
+
+
+@media (min-width: 768px){
+    .col-sm-offset-1 {
+        margin-left: 8.33333333%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .footContact {
+        width: 100%;
+    }
+    #copyrightUNAD {
+    width: 100%;
+    }
+}
+
+@media screen and (max-width: 930px){
+    .footContactLogoUNAD {
+        border-bottom: 1px solid #333;
+        float: none;
+        padding-left: 0%;
+        padding-bottom: 15px;
+        text-align: center;
+        width: 100%;
+    }
+    .footContactTextES, .footContactTextEN {
+        width: 48%;
+        float: left;
+        font-size: 11px;
+        padding-left: 2%;
+        padding-top: 15px;
+        text-align: left;
+        line-height: 14px;
+    }
+    div.footContactLogoCalidad {
+    padding-top: 15px;
+    }
+}
